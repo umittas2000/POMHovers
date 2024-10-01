@@ -40,7 +40,7 @@ public class DropdownPage {
           Lambda expression is used to
           manipulate array data within streams
          */
-        
+
         List<WebElement> allElements = findDropdownElement().getOptions();
 
 
