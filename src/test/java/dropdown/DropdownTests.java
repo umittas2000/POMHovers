@@ -12,6 +12,7 @@ public class DropdownTests extends BaseTests {
 
         //in this test method we will verify Total number of items in dropdown list.
         var dropdownPage = homePage.clickDropdownLink();
+
         int expectedTotalOptions = 3;
 
         var allOptions = dropdownPage.getAllOptions();
