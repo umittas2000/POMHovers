@@ -12,7 +12,7 @@ public class DropdownTests extends BaseTests {
 
         //in this test method we will verify Total number of items in dropdown list.
         var dropdownPage = homePage.clickDropdownLink();
-        int expectedTotalOptions = 3;
+        int expectedTotalOptions = 4;
 
         var allOptions = dropdownPage.getAllOptions();
         Assert.assertEquals(allOptions.size(),expectedTotalOptions,"Incorrect number of Options");

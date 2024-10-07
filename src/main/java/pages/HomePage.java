@@ -21,6 +21,11 @@ public class HomePage {
        clickLink("Form Authentication");
         return new LoginPage(driver);
     }
+    //Week13 hoversPage
+    public HoversPage clickHovers(){
+        clickLink("Hovers");
+        return new HoversPage(driver);
+    }
 
     //Dropdown Page action method , return related page as handle
     public DropdownPage clickDropdownLink() {
@@ -45,6 +50,4 @@ public class HomePage {
         driver.findElement(By.linkText(linkText)).click();
 
     }
-
-
 }
